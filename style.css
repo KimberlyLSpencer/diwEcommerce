@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa-brands{
+    font-size: 25px;
+}
+#boxBuscahoteis{
+    box-shadow: 0 0 3px #696969;
+}
+
+.card-title{
+    font-weight: 530;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    max-width: 890px !important;
+    max-height: 524px !important;
+}
+
+
+@media screen and (max-width: 850px) {
+    .carousel-inner {
+        max-width: 788px !important;
+        max-height: 464px !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    .carousel-inner {
+        max-width: 358px !important;
+        max-height: 212px !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    .carousel-inner {
+        max-width: 343px !important;
+        max-height: 202px !important;
+    } 
+}
+
+
+
